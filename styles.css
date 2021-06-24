@@ -1,0 +1,79 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 52px;
+}
+.logo {
+    padding: 0%;
+    width: 135px;
+    height: 26pt;
+    margin-left: 4.5%;
+    
+    
+    margin-right: 5%; 
+    display: inline;  
+}
+.configuracion {
+    font-size: 9pt;
+    color: #20334D;
+    margin-right: 30%;
+    display: inline;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.comunidad {
+    font-size: 9pt;
+    color: #A3A7AD;
+    margin-right: 3%;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.peru {
+    width: 19px;
+    height: 8pt;
+    display: inline; 
+    margin-top: 13px;
+}
+.numero {
+    font-size: 9pt;
+    color: #A3A7AD;
+    display: inline;
+    padding-right: 3%;
+}
+.ingresar {
+    font-size: 9pt;
+    color: #A3A7AD;
+    margin-right: 3%;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;   
+}
+.inscribete {
+    background-color: #FF6310;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: all .25s ease-in-out;
+    font-weight: 700;
+}
+nav {
+    background-color:#20334D;
+    width: 100%;
+    height: 53.922px;
+}
+.texto_uno  {
+    display: inline;
+    color: #01ED6C;
+    margin-left: 160px;
+    padding-top: 200px;
+    text-align: center;
+}
+.texto_dos {
+    display: inline;
+    color:  rgb(255, 255, 255);
+}
