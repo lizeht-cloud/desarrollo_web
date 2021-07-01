@@ -1,130 +1,204 @@
-html {
-    padding-top: 0%;
-}
-.body {
-    background-color: #FFFFFF;
-    margin: 0%;
-    margin-top: 0%;
-}
-.header {
-    width: 100%;
-    height: 500pt;
-    background-color: #dd1111;
-}
-.menu {
-    background-color: #FFFFFF;
-    
-    width: 100%;
-    height: 68px;
-}
-.logo {
-    width: 13%;
-    height: 35px;
-   float: left;
-    margin-left: 5%;
-    margin-top: 1%;
-}
-.certificado {
-    text-decoration: none;
-    color: #21334d;
-    height: 60px;
-    line-height: 60px;
-    font-weight: bolder;
-    font-size: 15px;
-    float: left;
-    margin-left: 5%;
-    margin-right: 25%;
-    margin-top: 8px;
-}
-.enlace {
-    color: #929ea8;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 10pt;
-    padding: 10px;
-    text-decoration: none;
-    float: left;
-    margin-right: 1%;
-    margin-top: 15px;
-}
-.peru {
-    width: 1%;
-    height: 12px;
-    float: left;
-    margin-top: 26px;
-}
-.boton {
-    color: #fff;
-    background: #ff6310;
-    padding: 10px 20px;
-    font-size: 0.875rem;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    float: left;
-    margin-left: 3%;
-    margin-top: 10px;
-}
-.nav {
-    background-color: #20304E;
-    width: 100%;
-    height: 70px;
-}
-
-.nav {
-    background-color:#20334D;
-    width: 100%;
-    height: 53.922px;
-}
-.texto_uno  {
-    color: #01ED6C;
-    
-    float: left;
-    font-size: 20pt;
-    margin-left: 5%;
-    margin-right: 0%;
-    margin-top: 15px;
-}
-.texto_dos {
-   
-    float: left;
-     color:  rgb(255, 255, 255);
-     font-size: 20pt;
+* {
+ 
+    box-sizing: border-box;
+ }
+ body {
+     margin: 0%;
+     padding: 0%;
+ }
+ .padre {
+ 
+ }
+ .header {
+     background-color: #FFFFFF;
+     display: flex;
+     flex-flow: column nowrap;
+ }
+ .menu {
+     background-color: #FFFFFF;
+     display: flex;
+     flex-flow: row nowrap;
+     height: 66px;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+ }
+ .logo {
+     background-color: #FFFFFF;
+     flex: 0 1 auto;
+     height: 66px;
+ }
+ .img {
+     width: 41.5%;
+     height: 36px;
+     margin-left: 5.7%;
      margin-top: 15px;
-     font-weight: bolder;
-}
-.contenedor {
-    position: relative;
-    display: inline-block;
-    text-align: center;  
-    width: 100%;
-    height: 395pt; 
-}
-.img {
-    width: 100%;
-    height: 395pt;    
-}
-.texto_encima {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    padding-top: 100px;
-    text-align: center;
-    font-family: sans-serif;
-    color: #FEFEFE;
+ }
+ .certificado {
+     background-color: #FFFFFF;
+     flex: 0 1 auto;
+     height: 66px;
+     margin-right: 15.6%;
+     margin-top: 4.5px;
+ }
+ .contenido_certificado {
+     text-decoration: none;
+     color: #21334d;
+     padding-left: 0%;
+     margin-right: 52%;
+     line-height: 60px;
+     font-weight: 700;
+     letter-spacing: 1px;
+     font-size: 14.5px;
+     font-family: sans-serif;
+     margin-right: 24%;
+ }
+ .contenido_certificado::after {
+     content: "\f107";
+     margin-left: 5px;
+ }
+ .nav {
+     background-color: #FFFFFF;
+     flex: 5 1 auto;
+     height: 66px;
+     display: flex;
+     flex-flow: column row;
+     
+ }
+ .comunidad {
+     text-decoration: none;
+     margin-top: 29px;
+     color: #929ea8;
+     font-size: 0.75rem;
+     margin-right: 6.8%;
+     font-family: 'Open Sans', sans-serif;
+ }
+ .comunidad::after {
+     content: "\f107";
+     margin-left: 5px;
+     font-family: sans-serif;
+ }
+ .peru {
+     width: 3.4%;
+     height: 11.3px;
+     margin-top: 31px;
+     margin-right: 2%;
+ }
+ .numero {
+     text-decoration: none;
+     margin-top: 29px;
+     color: #929ea8;
+     font-size: 0.75rem;
+     margin-right: 1%;
+     font-family: 'Open Sans', sans-serif;
+ }
+ .numero::after {
+     content: "\f107";
+     margin-left: 5px;
+     font-family: sans-serif;
+ }
+ .ingresar {
+     text-decoration: none;
+     margin-top: 29px;
+     color: #929ea8;
+     font-size: 0.75rem;
+     margin-right: 5%;
+     margin-left: 2%;
+     font-family: 'Open Sans', sans-serif;
+ }
+ .ingresar::before {
+     color: #929ea8;
+     margin-left: 10px;
+     content: "|";
+     margin-right: 15px;
+     margin-right: 18px;
+ }
+ .inscribete {
+     color: #fff;
+     background: #ff6310;
+     text-decoration: none;
+     padding: 10px 18px;
+     border-radius: 4px;
+     margin-left: 8px;
+     font-size: 0.875rem;
+     font-weight: 550;
+     font-family: 'Roboto', sans-serif;
+     text-transform: uppercase;
+     margin-top: 16px;
+     margin-bottom: 13px;
+ }
+ .nav_dos {
+     height: 55px;
+     background-color: #23364F;
+     display: flex;
+     flex-flow: row nowrap;
+ }
+ .menu_dos {
+     background-color: #23364F;
+     flex: 0 1 auto;
+     height: 55px;
+     padding-right: 15px;
+     padding-left: 0px;
+     margin-right: auto;
+     margin-left: auto;
+ }
+ .texto_ruleta {
+     margin-left: 0%;
+     margin-top: 8px;
+ }
+ .texto_premio {
+     height: 55px;
+     border-radius: 4px;
+     font-size: .875rem;
+     color: #fff;
+     padding: 8px 35px;
+     font-weight: 700;
+     text-decoration: none;
+     text-transform: none;
+     background-color: #f60;
+     text-align: center;
+     margin-left: 10px;
+     margin-right: 10px;
+ }
+ .texto_principal {
+     background-image: url(./images/webHero.jpg);
+     display: flex;
+     flex-flow: column nowrap;
+     background-position: center;
+     background-size: cover;
+     background-attachment: contain;
+     height: 550px;
+ }
+ .h1 {
+    color: #fefefe;
     font-size: 42px;
     line-height: 1;
     margin-bottom: 20px;
-}
-.texto {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    text-align: center;
-    font-family: sans-serif;
-    color: #FEFEFE;
-    margin-bottom: 0;
-    padding-right: 20px;
-    line-height: 1.35;
     font-weight: 300;
-    font-size: 1.1rem;
-    margin-top: 15%;
-}
+    margin: .67em 0;
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+ }
+ .h2 {
+    color: #fefefe;
+    font-size: 1.5em;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-weight: 300;
+    margin: .67em 0;
+    text-align: left;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+ }
+ .form {
+     background-color: gold;
+ }
+ .section {
+     background-color: darkblue;
+ }
