@@ -132,24 +132,21 @@
      height: 55px;
      background-color: #23364F;
      display: flex;
+     justify-content: center;
  }
  .menu_dos {
+     margin-right: 18.2%;
      background-color: #23364F;
      height: 55px;
-     padding-right: 15px;
-     padding-left: 0px;
-     margin-right: auto;
-     margin-left: auto;
  }
  .texto_ruleta {
-     margin-right: 20px;
-     margin-top: 8px;
+     margin-top: 4px;
  }
  .texto_premio {
      position: absolute;
      font-size: 15.7px;
      color: #fff;
-     padding: 10px 35px;
+     padding: 9px 30px;
      border: none;
      border-radius: 4px;
      font-weight: 700;
@@ -160,7 +157,7 @@
      background-color: #f60;
      text-align: center;
      margin-top: 10px;
-     margin-left: 7px;
+     margin-left: 2.55%;
  }
  .texto_principal {
      background-image: url(./images/webHero.jpg);
@@ -169,10 +166,10 @@
      background-position: center;
      background-size: cover;
      background-attachment: contain;
-     height: 550px;
+     height: 100vh;
  }
  .contenido_cabecera {
-     margin-top: 5%;
+     margin-top: 8%;
      position: relative;
      min-height: 1px;
      padding-right: 15px;
@@ -189,7 +186,6 @@
      margin-bottom: 20px;
      margin-top: 0;
      font-weight: 300;
-    
      font-family: 'Open Sans', sans-serif;
  }
  .h2 {
@@ -209,23 +205,102 @@
  }
  .texto_segundo {
      background-color: #FAFAFA;
+     display: flex;
+     flex-flow: column row;
+     justify-content: center;
  }
  .conteno_texto {
+     width: 100%;
+     height: 50px;
+    display: flex;
+    flex-flow: column;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+
  }
- .section {
-     background-color: #fefefe;
-     display: flex;
-     flex-flow: row wrap;
+ .texto_cursos {
+    margin-bottom: 25px;
+    padding-top: 10px;
+    line-height: 1.1;
+    font-size: 60px;
+    font-weight: 300;
+    color: #1e1e1e;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
  }
- .articulos {
-     flex:2 1 auto;
-     display: flex;
- }
-.img_articles {
-    width: 30%;
-    height: 70%;
+.texto_certificate {
+    font-weight: 400;
+    color: #373737;
+    margin: 0 0 1.5em;
+    font-size: 1.125em;
+    text-align: center;
+    font-family: 'Open Sans' sans-serif;  
+}
+.section_articulos {
+    background-color: #FAFAFA;
+
+}
+.articulos {
+    flex-flow: row;
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    margin-left: 1%;
+}
+.articles {
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 10px;
+    flex-flow: column row;
+    justify-content: center;
+    width: 120%;
+}
+.contenido_img {
+    background-color: #0092F3;
+    width: 100%;
+
+}
+.img_articulos {
+    width: 100%;
+}
+.enlaces {
+    margin-left: 28%;
+    text-decoration: none;
+    font-weight: 700;
+    color: #373737;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px 5;
+    font-family: 'Open Sans', sans-serif;
+}
+.enlace_segundo {
+    margin-left: 42%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 12px;
+    font-weight: 700;
+    color: #373737;
+    font-family: 'Open Sans', sans-serif;
+}
+.enlaces_nuevo {
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 12px;
+    font-weight: 700;
+    color: #373737;
+    font-family: 'Open Sans', sans-serif;
+}
+.nuevo {
+    margin-left: 35%;
+    margin-right: 2%;
+    background: #00ed6b;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 0.3em;
+    color: #ffffff;
+    font-size: 0.7rem;
 }
