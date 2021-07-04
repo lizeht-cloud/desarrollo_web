@@ -304,3 +304,57 @@
     color: #ffffff;
     font-size: 0.7rem;
 }
+.section_ofertas {
+   background-color: #333333;
+}
+.fondo_img {
+   background-image: url(./images/tecla.jpg);
+   min-height: 200px;
+   background-position: center center;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   margin-top: 3%;
+}
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 1%;
+    margin-right: 10%;
+}
+.container_ingreso {
+    border-right: 1px solid #cecece;
+   
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.ingreso-top {
+    min-height: 70px;
+    padding-top: 20px;
+}
+.img_ingreso {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 5%;
+}
+.texto1_body {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.texto2_body {
+    color: #fff;
+    font-size: 95%;
+    line-height: 1.2;
+    margin: 0 0 1.5em;
+    text-align: center;
+    width: auto;
+    font-family: 'Open Sans', sans-serif;
+}
