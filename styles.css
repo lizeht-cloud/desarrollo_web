@@ -240,6 +240,7 @@
 }
 .section_articulos {
     background-color: #FAFAFA;
+    padding-left: 5%;
 
 }
 .articulos {
@@ -320,32 +321,34 @@
     flex-flow: row nowrap;
     justify-content: center;
     padding: 1%;
-    margin-right: 10%;
+    margin-right: 7%;
+    min-height: 200px;
 }
 .container_ingreso {
     border-right: 1px solid #cecece;
-   
     padding-right: 15px;
     padding-left: 15px;
     font-family: 'Open Sans', sans-serif;
+    margin-left: 2%;
 }
 .ingreso-top {
     min-height: 70px;
-    padding-top: 20px;
+    padding-top: 11.5px;
+    margin-left: 3.5%;
 }
 .img_ingreso {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
 }
 .texto1_body {
     font-size: 20px;
     font-weight: 300;
     color: #fff;
     line-height: 1;
-    margin-top: 0;
     margin-bottom: 5px;
+    margin-top: 2%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
@@ -357,4 +360,92 @@
     text-align: center;
     width: auto;
     font-family: 'Open Sans', sans-serif;
+}
+.body_ingreso1 {
+    margin-top: 4%;
+}
+.body_ingreso3 {
+    margin-top: 5%;
+}
+.container_ingreso3 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+.section_contenido_porque-next {
+    margin: 0;
+    min-height: 500px;
+    padding: 1.25em 0;
+}
+.porque-next {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.titulo_next {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 1.15;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+} 
+.contenido_porque-next {
+    flex-flow: row;
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.contenido_porque-next1 {
+    width: 33.33333333%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+}
+.contenido_img-next {
+    min-height: 125px;
+    margin-top: 0;
+}
+.img_porque-next {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 20px;
+}
+.next_body {
+    display: table-cell;
+    vertical-align: top;
+    width: 10000px;
+}
+.next_body-texto {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #666;
+    margin: 0 0 1.5em;
+    hyphens: none;
+}
+.fondo_img-elige {
+    background-image: url(./images/teclados.jpg);
+    min-height: 200px;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+}
+.container_texto_elige {
+    padding-top: 4%;
+    min-height: 200px;
+    padding-left: 6px;
+}
+.texto_elige {
+    color: #fff;
+    font-size: 1.75em;
+    line-height: 1.4em;
+    font-weight: 700;
+    text-align: center;
+    font-family: sans-serif;
 }
