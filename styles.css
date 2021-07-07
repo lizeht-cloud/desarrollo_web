@@ -449,3 +449,128 @@
     text-align: center;
     font-family: sans-serif;
 }
+.section_06 {
+    margin-top: 50px;
+    padding: 1.25em 0;
+    position: relative;
+}
+.container_06 {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text_center {
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 1.1;
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #1e1e1e;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section_container-06 {
+    flex-flow: row;
+    display: flex;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-_center {
+    font-size: 1.575rem;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 1.1;
+    text-align: center;
+    font-weight: 300;
+    color: #1e1e1e;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.section_text-center {
+    width: 50%;
+    font-size: 1.575rem;
+    line-height: 1.1;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #1e1e1e;
+    margin-top: 15%;
+}
+.text-_center2 {
+    font-size: 18px;
+    hyphens: none;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.25;
+    color: #525c69;
+    margin: 0%;
+}
+.a {
+    margin-top: 21.5%;
+    text-decoration: none;
+    font-size: 55px;
+    color: #8E8D8D;
+    font-weight: 800;
+    margin-right: 4%;
+}
+.footer_center {
+    width: 100%;
+    background-color: #1F1D1D;
+}
+.footer_contenido {
+    width: 1170px;
+    display: flex;
+    flex-flow: row;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contenido_colum1 {
+    padding: 2%;
+}
+.buton_info {
+    color: #000;
+    background-color: #00aef7;
+    text-decoration: none;
+}
+.peru2 {
+    width: 3.4%;
+    height: 11.3px;
+}
+.colum_1 {
+    margin-left: 0%;
+}
+.h5 {
+    color: #cecece;
+    margin-bottom: -10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 8pt;
+    line-height: 2.09em;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.enlace_listas {
+    text-decoration: none;
+    color: #AAA;
+    font-size: 100%;
+    line-height: 1.25;
+    font-size: 11px;
+}
+.parrafo {
+    color: #757575;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer2 {
+    background-color: #000;
+}
